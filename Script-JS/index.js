@@ -6,7 +6,7 @@ let newTabNewSearch = []
 
 //requete asynchron recupere les donner
 const getData = async () =>
-    await fetch('../Data/recipes.json')
+    await fetch('./Data/recipes.json')
         .then(response => { if (response.ok) { return response.json() } }
         )
 
