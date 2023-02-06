@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Logo-site {
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #D04F4F;
+    }
+
+    .content-search {
+        background-color: #E7E7E7;
+        width: 100%;
+        height: 5.2vh;
+        margin-bottom: 2%;
+
+        input {
+            border: none;
+            background-color: #E7E7E7;
+            width: 95%;
+            height: 5vh;
+            color: black;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            margin-right: 2%;
+        }
+    }
+}

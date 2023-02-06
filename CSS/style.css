@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .Logo-site {
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #D04F4F;
+}
+header .content-search {
+  background-color: #E7E7E7;
+  width: 100%;
+  height: 5.2vh;
+  margin-bottom: 2%;
+}
+header .content-search input {
+  border: none;
+  background-color: #E7E7E7;
+  width: 95%;
+  height: 5vh;
+  color: black;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 2%;
+}
+
+body {
+  margin: 0 10%;
+}
+
+.select-search {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  height: 5%;
+}
+.select-search .search-intel {
+  padding: 1%;
+  margin: 0 0.4%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+}
+.select-search .search-intel .search-content {
+  display: flex;
+  justify-content: space-between;
+}
+.select-search .search-intel .search-content i {
+  width: 3vh;
+}
+.select-search .search-intel .search-content input {
+  border: none;
+  background-color: transparent;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(245, 245, 245);
+}
+.select-search .search-intel .search-content input:focus {
+  border: none;
+}
+.select-search #ingredients {
+  background: #3282F7;
+  border: none;
+  border-radius: 5px;
+  transition: 300ms;
+}
+.select-search #ingredients .ingredients {
+  flex-wrap: wrap;
+  width: 100%;
+  background: #3282F7;
+  left: -2.1%;
+  border-radius: 5px;
+  padding: 0 2%;
+  position: relative;
+}
+.select-search #ingredients .ingredients span {
+  font-size: 14px;
+  font-weight: 400;
+  width: 24vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.84);
+}
+.select-search #appareil {
+  background: #68D9A4;
+  border: none;
+  border-radius: 5px;
+}
+.select-search #appareil .appareil {
+  flex-wrap: wrap;
+  position: absolute;
+  background: #68D9A4;
+  border-radius: 5px;
+  width: 100%;
+  left: -2.1%;
+  border-radius: 5px;
+  padding: 0 2%;
+  position: relative;
+}
+.select-search #appareil .appareil span {
+  font-size: 14px;
+  font-weight: 400;
+  width: 14vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.84);
+}
+.select-search #ustensiles {
+  background: #ED6454;
+  border: none;
+  border-radius: 5px;
+}
+.select-search #ustensiles .ustensile {
+  flex-wrap: wrap;
+  position: absolute;
+  background: #ED6454;
+  border-radius: 5px;
+  width: 100%;
+  left: -2.1%;
+  border-radius: 5px;
+  padding: 0 2%;
+  position: relative;
+}
+.select-search #ustensiles .ustensile span {
+  font-size: 14px;
+  font-weight: 400;
+  width: 14vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+article {
+  width: 30%;
+  height: 40vh;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+article .content-article {
+  height: 50%;
+  background: #C7BEBE;
+}
+article .content-recette {
+  padding: 0 3%;
+  background: #E7E7E7;
+}
+article .content-recette .time-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+article .content-recette .time-name .temp {
+  font-size: 18px;
+}
+article .content-recette .recette {
+  display: flex;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+article .content-recette .recette div {
+  width: 50%;
+}
+article .content-recette .recette div .ingret {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+article .content-recette .recette div .ingret .spec {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+}
+article .content-recette .recette p {
+  width: 50%;
+  margin: unset;
+  font-size: 11px;
+}
+article .content-recette .recette #astuce {
+  height: 11vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#content-articles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.tag {
+  display: flex;
+  margin-bottom: 5px;
+}
+.tag div {
+  margin: 0 5px;
+  padding: 5px 3px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.809);
+}
+.tag .bleu {
+  background-color: #3282F7;
+}
+.tag .green {
+  background-color: #68d9a4;
+}
+.tag .red {
+  background-color: #ed6454;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+#content-articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.tag {
+    display: flex;
+    margin-bottom: 5px;
+
+    div {
+        margin: 0 5px;
+        padding: 5px 3px;
+        border-radius: 4px;
+        color: rgba(255, 255, 255, 0.809);
+    }
+
+    .bleu {
+        background-color: #3282F7;
+    }
+
+    .green {
+        background-color: #68d9a4;
+    }
+    .red{
+        background-color: #ed6454;
+    }
+}

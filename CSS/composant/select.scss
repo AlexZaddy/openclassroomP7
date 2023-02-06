@@ -1,0 +1,127 @@
+body {
+    margin: 0 10%;
+}
+
+.select-search {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 5%;
+
+    .search-intel {
+        padding: 1%;
+        margin: 0 .4%;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 22px;
+
+        .search-content {
+            display: flex;
+            justify-content: space-between;
+
+            i {
+                width: 3vh;
+            }
+
+            input {
+                border: none;
+                background-color: transparent;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                color: rgb(245, 245, 245);
+
+                &:focus {
+                    border: none;
+                }
+            }
+        }
+    }
+
+    #ingredients {
+        background: #3282F7;
+        border: none;
+        border-radius: 5px;
+        transition: 300ms;
+
+        .ingredients {
+            flex-wrap: wrap;
+            width: 100%;
+            background: #3282F7;
+            left: -2.1%;
+            border-radius: 5px;
+            padding: 0 2%;
+            position: relative;
+
+
+            span {
+                font-size: 14px;
+                font-weight: 400;
+                width: 24vh;
+                height: 5vh;
+                display: flex;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.84);
+            }
+        }
+    }
+
+    #appareil {
+        background: #68D9A4;
+        border: none;
+        border-radius: 5px;
+
+        .appareil {
+            flex-wrap: wrap;
+            position: absolute;
+            background: #68D9A4;
+            border-radius: 5px;
+            width: 100%;
+            left: -2.1%;
+            border-radius: 5px;
+            padding: 0 2%;
+            position: relative;
+
+            span {
+                font-size: 14px;
+                font-weight: 400;
+                width: 14vh;
+                height: 5vh;
+                display: flex;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.84);
+            }
+        }
+    }
+
+    #ustensiles {
+        background: #ED6454;
+        border: none;
+        border-radius: 5px;
+
+        .ustensile {
+            flex-wrap: wrap;
+            position: absolute;
+            background: #ED6454;
+            border-radius: 5px;
+            width: 100%;
+            left: -2.1%;
+            border-radius: 5px;
+            padding: 0 2%;
+            position: relative;
+
+            span {
+                font-size: 14px;
+                font-weight: 400;
+                width: 14vh;
+                height: 5vh;
+                display: flex;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.84);
+            }
+        }
+    }
+}

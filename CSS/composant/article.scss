@@ -1,0 +1,72 @@
+article {
+    width: 30%;
+    height: 40vh;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    // margin-right: 2%;
+    overflow: hidden;
+
+    .content-article {
+        height: 50%;
+        background: #C7BEBE;
+    }
+
+    .content-recette {
+        padding: 0 3%;
+        background: #E7E7E7;
+
+        .time-name {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5vh;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+
+            .temp {
+                font-size: 18px;
+            }
+        }
+
+        .recette {
+            display: flex;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+
+            div {
+                width: 50%;
+
+                .ingret {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 100%;
+
+                    .spec {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            p {
+                width: 50%;
+                margin: unset;
+                font-size: 11px;
+            }
+
+            #astuce {
+                height: 11vh;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
